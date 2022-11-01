@@ -1,0 +1,135 @@
+html {
+  background-color: hsl(204, 43%, 93%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+}
+
+.wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 47fr 53fr;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* box 1 */
+.join {
+  background-color: #fff;
+  grid-column: 1/-1;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+.join-heading {
+  color: hsl(179, 62%, 43%);
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.heading-secondary {
+  color: hsl(71, 73%, 54%);
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #adb5bd;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+/* box 2 */
+.subs {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+.subs-heading {
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dollar {
+  font-size: 30px;
+}
+
+.per {
+  font-size: 13px;
+  color: hsl(179, 63%, 54%);
+  font-weight: 400;
+}
+
+.sub-description {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 200px;
+}
+
+/* box 3 */
+
+.why-us {
+  background-color: hsl(179, 63%, 54%);
+  padding: 30px;
+  color: #fff;
+}
+
+.heading-whyus {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ul-whyus {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.li-whyus {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(179, 88%, 73%);
+}
